@@ -5,8 +5,8 @@ Bu proje, **Meka Teknik Pompa** için hazırlanmış bir **React.js** web sitesi
 ## 🛠 Kullanılan Teknolojiler
 - ⚛ **React.js** (Next.js olabilir mi? Eğer Next.js kullanıyorsan belirtelim.)
 - 🎨 **CSS Module /
-🔥 React Icons → UI bileşenlerine ikon eklemek için
-🎠 Swiper.js → Slider (kaydırılabilir görseller) oluşturmak için
+🔥 React Icons → UI bileşenlerine ikon eklemek için -> npm install react-icons --save
+🎠 Swiper.js → Slider (kaydırılabilir görseller) oluşturmak için -> npm i swiper
 
 ## 🚀 Kurulum ve Çalıştırma
 Proje bilgisayarında çalıştırmak için: npm run dev 
