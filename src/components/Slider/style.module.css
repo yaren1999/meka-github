@@ -46,9 +46,40 @@
     left: 50%;
     transform: translateX(-50%);
     display: flex;
+    width: 100%;
+    justify-content: space-between;
     gap: 15px;
     z-index: 100;
+    top: 45%; /* Butonları yukarı taşıdım */
+    
 }
+
+/* Küçük ekranlar için responsive ayarlamalar */
+@media screen and (max-width: 768px) {
+    .buttons {
+        top: 30%; /* Mobilde butonları biraz aşağı al */
+    }
+
+    .button {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .buttons {
+        top: 30%;
+    }
+
+    .button {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+}
+
+
 
 .button {
     background-color: rgba(0, 0, 0, 0.6);
@@ -66,6 +97,7 @@
     height: 50px;
 }
 
+
 .button:hover {
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
@@ -75,3 +107,4 @@
 .button:active {
     transform: scale(0.9);
 }
+
