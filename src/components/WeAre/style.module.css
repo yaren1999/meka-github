@@ -1,0 +1,127 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 500px; 
+  }
+  
+  .images {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .imageLeft, .imageRight {
+    transition: transform 0.3s ease;
+    max-width: 90%; 
+  max-height: 90%; 
+  object-fit: contain; 
+  }
+  
+  .textContainer {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #00ffcc;
+    animation: glow 2s infinite alternate;
+    transition: transform 0.3s ease-in-out;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 600px; 
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    
+  }
+  
+  .description {
+    font-size: 1.4rem;
+    color: #555;
+    max-width: 500px; 
+  }
+  
+  .textContainer:hover {
+    transform: scale(1.05); 
+  }
+
+  @keyframes glow {
+    0% { box-shadow: 0 0 10px #00ffcc; }
+    50% { box-shadow: 0 0 20px #00ffff, 0 0 30px #00ffcc; }
+    100% { box-shadow: 0 0 10px #00ffcc; }
+  }
+  
+  .textContainer:hover {
+    transform: scale(1.05);
+  }
+
+
+    @media (max-width: 1200px) {
+  .container {
+    height: 400px; /* Adjust container height for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .images {
+    flex: none;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .imageLeft, .imageRight {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  .textContainer {
+    max-width: 90%; /* Make the text container take more width on smaller screens */
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 1.5rem; /* Slightly smaller title font on smaller screens */
+  }
+
+  .description {
+    font-size: 1.2rem; /* Slightly smaller description font */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    height: auto; /* Adjust container height further on very small screens */
+    padding: 15px;
+  }
+
+  .imageLeft, .imageRight {
+    max-width: 70%;
+    max-height: 70%;
+  }
+
+  .textContainer {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 1.2rem; /* Even smaller title on small devices */
+    margin-bottom: 15px;
+  }
+
+  .description {
+    font-size: 1rem; /* Even smaller description on small devices */
+  }
+}
