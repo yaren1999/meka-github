@@ -6,6 +6,7 @@ import Products from "@/components/Products/Products";
 import WeAre from "@/components/WeAre/WeAre";
 import Yakit from "@/components/Yakit/Yakit";
 import WaterPomp from "@/components/WaterPomp/WaterPomp";
+import YagPomp from "@/components/YagPomp/YagPomp";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
     <WeAre/>
     <Yakit/>
     <WaterPomp/>
+    <YagPomp/>
    </div>
   );
 }
