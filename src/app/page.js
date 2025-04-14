@@ -7,6 +7,7 @@ import WeAre from "@/components/WeAre/WeAre";
 import Yakit from "@/components/Yakit/Yakit";
 import WaterPomp from "@/components/WaterPomp/WaterPomp";
 import YagPomp from "@/components/YagPomp/YagPomp";
+import Hidrolik from "@/components/Hidrolik/Hidrolik";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
     <Yakit/>
     <WaterPomp/>
     <YagPomp/>
+    <Hidrolik/>
    </div>
   );
 }
