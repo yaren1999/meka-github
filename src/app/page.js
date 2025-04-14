@@ -5,6 +5,7 @@ import Tanıtım from "@/components/Tanıtım/Tanıtım";
 import Products from "@/components/Products/Products";
 import WeAre from "@/components/WeAre/WeAre";
 import Yakit from "@/components/Yakit/Yakit";
+import WaterPomp from "@/components/WaterPomp/WaterPomp";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     <Products/>
     <WeAre/>
     <Yakit/>
+    <WaterPomp/>
    </div>
   );
 }
