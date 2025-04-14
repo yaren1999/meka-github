@@ -4,6 +4,7 @@ import Slider from "@/components/Slider/Slider";
 import Tanıtım from "@/components/Tanıtım/Tanıtım";
 import Products from "@/components/Products/Products";
 import WeAre from "@/components/WeAre/WeAre";
+import Yakit from "@/components/Yakit/Yakit";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     <Tanıtım/>
     <Products/>
     <WeAre/>
+    <Yakit/>
    </div>
   );
 }
