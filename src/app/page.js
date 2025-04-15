@@ -8,6 +8,7 @@ import Yakit from "@/components/Yakit/Yakit";
 import WaterPomp from "@/components/WaterPomp/WaterPomp";
 import YagPomp from "@/components/YagPomp/YagPomp";
 import Hidrolik from "@/components/Hidrolik/Hidrolik";
+import Hava from "@/components/Hava/Hava";
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
     <WaterPomp/>
     <YagPomp/>
     <Hidrolik/>
+    <Hava/>
    </div>
   );
 }
